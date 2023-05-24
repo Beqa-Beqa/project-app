@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.app__navbar {
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .app__navbar-span {
+    border: 1px solid #000;
+    padding: 0 .5rem;
+    border-radius: 25px;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .app__navbar-span:hover {
+    color: rgb(0, 176, 240);
+  }
+ 
+  @media screen and (max-width: 850px) {
+    .app__navbar {
+      margin: 0 auto 2rem auto;
+      height: auto;
+    }
+  }
